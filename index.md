@@ -45,6 +45,9 @@ email: ["tnorris@miami.edu", "nvo4@miami.edu"]
 {% endif %}
 
 <h2 id="general">General Information</h2>
+
+  INTRODUCTION
+
 if page.carpentry == "swc"
   include sc/intro.html
 elsif page.carpentry == "dc"
@@ -53,7 +56,7 @@ elsif page.carpentry == "lc"
   include lc/intro.html
 endif
 
-{% comment %}
+
   AUDIENCE
 
   Explain who your audience is.  (In particular, tell readers if the
