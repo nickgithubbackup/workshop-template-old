@@ -44,7 +44,6 @@ email: ["tnorris@miami.edu", "nvo4@miami.edu"]
 </iframe>
 {% endif %}
 
-
 <h2 id="general">General Information</h2>
 
 if page.carpentry == "swc"
