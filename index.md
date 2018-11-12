@@ -48,10 +48,6 @@ email: ["tnorris@miami.edu", "nvo4@miami.edu"]
 
 
   INTRODUCTION
-
-  Edit the general explanatory paragraph below if you want to change
-  the pitch.
-{% endcomment %}
 {% if page.carpentry == "swc" %}
   {% include sc/intro.html %}
 {% elsif page.carpentry == "dc" %}
