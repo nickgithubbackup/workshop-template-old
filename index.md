@@ -1,6 +1,6 @@
 ---
 layout: workshop      # DON'T CHANGE THIS.
-carpentry: "SWC"
+carpentry: "swc"
 venue: "University of Miami Gables Campus"
 address: "Richter Library, Learning Commons Flexible Program Space (1st Floor) 1300 Memorial Drive, Coral Gables, FL 33124-0320"
 country: "us"
