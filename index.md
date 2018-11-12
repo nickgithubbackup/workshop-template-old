@@ -46,14 +46,19 @@ email: ["tnorris@miami.edu", "nvo4@miami.edu"]
 
 <h2 id="general">General Information</h2>
 
+{% comment %}
+  INTRODUCTION
 
-if page.carpentry == "swc"
-  include sc/intro.html
-elsif page.carpentry == "dc"
-  include dc/intro.html
-elsif page.carpentry == "lc"
-  include lc/intro.html
-endif
+  Edit the general explanatory paragraph below if you want to change
+  the pitch.
+{% endcomment %}
+{% if page.carpentry == "swc" %}
+  {% include sc/intro.html %}
+{% elsif page.carpentry == "dc" %}
+  {% include dc/intro.html %}
+{% elsif page.carpentry == "lc" %}
+  {% include lc/intro.html %}
+{% endif %}
 
 {% comment %}
   AUDIENCE
