@@ -46,7 +46,7 @@ email: ["tnorris@miami.edu", "nvo4@miami.edu"]
 
 <h2 id="general">General Information</h2>
 
- if page.carpentry == "swc"
+if page.carpentry == "swc"
   include sc/intro.html
 elsif page.carpentry == "dc"
   include dc/intro.html
