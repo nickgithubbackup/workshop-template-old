@@ -55,7 +55,7 @@ elsif page.carpentry == "lc"
   include lc/intro.html
 endif
 
-
+{% comment %}
   AUDIENCE
 
   Explain who your audience is.  (In particular, tell readers if the
