@@ -1,20 +1,18 @@
 ---
 layout: workshop      # DON'T CHANGE THIS.
-carpentry: "FIXME"    # SWC
-venue: "FIXME"        # University of Miami Gables Campus
-address: "FIXME"      # Richter Library, Learning Commons Flexible Program Space (1st Floor) 1300 Memorial Drive, Coral Gables, FL 33124-0320
-country: "FIXME"      # us
-language: "FIXME"     # en
-latlng: "FIXME"       # "25.721147,-80.278739"
-humandate: "FIXME"    # "November 14-15, 2018"
-humantime: "FIXME"    # "9:00 am - 5:00 pm"
-startdate: FIXME      # 2018-11-14
-enddate: FIXME        # 2018-11-15
-instructor: ["FIXME"] # ["Tim Norris", "Nick O'Neill"]
-helper: ["FIXME"]     # []
-email: ["fixme@example.org"]    # ["tnorris@miami.edu", "nvo4@miami.edu"]
-collaborative_notes:             # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
-eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
+carpentry: "SWC"
+venue: "University of Miami Gables Campus"
+address: "Richter Library, Learning Commons Flexible Program Space (1st Floor) 1300 Memorial Drive, Coral Gables, FL 33124-0320"
+country: "us"
+language: "en"
+latlng: "25.721147,-80.278739"
+humandate: "November 14-15, 2018"
+humantime: "9:00 am - 5:00 pm"
+startdate: 2018-11-14
+enddate: 2018-11-15
+instructor: ["Tim Norris", "Nick O'Neill"]
+helper: []
+email: ["tnorris@miami.edu", "nvo4@miami.edu"]
 ---
 
 {% comment %} See instructions in the comments below for how to edit specific sections of this workshop template. {% endcomment %}
